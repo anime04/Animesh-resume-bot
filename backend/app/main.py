@@ -119,13 +119,13 @@ def step2_retrieve_chunks(question: str) -> list[str]:
 
     # Sort by score descending, take top 3 chunks (Day 3 — token control)
     scored_sections.sort(key=lambda x: x[0], reverse=True)
-    top_chunks = [chunk for _, _, chunk in scored_sections[:3]]
+    top_chunks = [chunk for _, _, chunk in scored_sections[:8]]
 
     # If no sections scored > 0, return top 2 as fallback (always give some context)
     if all(score == 0 for score, _, _ in scored_sections):
-        top_chunks = [chunk for _, _, chunk in scored_sections[:2]]
+        top_chunks = [chunk for _, _, chunk in scored_sections[:8]]
 
-    logger.info(f"RAG retrieved sections: {[sid for _, sid, _ in scored_sections[:3]]}")
+    logger.info(f"RAG retrieved sections: {[sid for _, sid, _ in scored_sections[:8]]}")
     return top_chunks
 
 
