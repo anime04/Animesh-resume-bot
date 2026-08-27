@@ -20,15 +20,15 @@ User Query
     │
     ▼
 ┌─────────────────────────────────────────────┐
-│  Step 1: classify_query()  (Day 2 + Day 6)  │
+│  Step 1: classify_query()                   │
 │  → Classifies query as technical /          │
 │    experience / general                     │
-│  → Picks temperature: 0.1 / 0.3 / 0.6      │
+│  → Picks temperature: 0.1 / 0.3 / 0.6       │
 └──────────────────────┬──────────────────────┘
                        │
                        ▼
 ┌─────────────────────────────────────────────┐
-│  Step 2: retrieve_chunks()  (Day 6 + RAG)   │
+│  Step 2: retrieve_chunks()                  │
 │  → Scores all resume sections by keyword    │
 │    overlap with the query                   │
 │  → Returns Top 8 most relevant sections     │
@@ -37,7 +37,7 @@ User Query
                        │
                        ▼
 ┌─────────────────────────────────────────────┐
-│  Step 3: build_augmented_prompt() (Day 2+8) │
+│  Step 3: build_augmented_prompt()           │
 │  → Builds system prompt with ONLY           │
 │    the retrieved chunks injected            │
 │  → Adds rules: first-person, no invention,  │
@@ -46,7 +46,7 @@ User Query
                        │
                        ▼
 ┌─────────────────────────────────────────────┐
-│  Groq stream_chat()  (Day 1 + Day 9)        │
+│  Groq stream_chat()                         │
 │  → Sends augmented prompt + chat history    │
 │  → Streams response token-by-token (SSE)    │
 │  → Logs ~token count after each response    │
@@ -242,7 +242,7 @@ build_augmented_prompt(chunks) → system_prompt
 
 ## 🛡 Security & Design Highlights
 
-1. **Server-Side API Key** — `GROQ_API_KEY` never exposed to frontend
+1. **Server-Side API Key** — never exposed to frontend
 2. **Fail-Fast Validation** — Backend validates API key at startup
 3. **Rate Limiting** — Per-IP sliding window (20 req/min default)
 4. **RAG Grounding** — LLM only sees retrieved resume sections, reducing hallucination
