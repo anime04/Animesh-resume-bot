@@ -1,0 +1,107 @@
+{
+  "name": "Animesh Jain",
+  "title": "Generative AI Developer",
+  "contact": {
+    "phone": "+91 9770624056",
+    "email": "jainani450@gmail.com",
+    "linkedin": "linkedin.com/in/animesh-jain-349893258"
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "label": "Summary",
+      "keywords": ["summary", "about", "who", "background", "overview", "certified", "certification"],
+      "content": "Generative AI Developer (B.Tech 2026) with hands-on experience building AI-powered enterprise products. Worked on Orky.io, a production RAG-based enterprise chatbot integrating with ServiceNow, contributing to the full RAG pipeline including document ingestion, embedding, vector search, and LLM response generation. Proficient in Python, LLM API integration, and RAG architecture. Certified in ServiceNow System Administration and Generative AI."
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "keywords": ["skill", "skills", "python", "javascript", "sql", "tailwind", "html", "css", "tool", "tools", "git", "github", "powerbi", "power bi", "excel", "pandas", "mysql", "stack", "technology", "technologies", "vs code"],
+      "content": {
+        "Generative AI": ["RAG", "LLM API Integration (Python)", "Vector Search"],
+        "Programming": ["Python", "JavaScript", "SQL"],
+        "Frontend": ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+        "Enterprise": ["ServiceNow"],
+        "Tools": ["Git", "GitHub", "VS Code"],
+        "Supporting": ["Power BI", "Excel", "Pandas", "MySQL"]
+      }
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "keywords": ["experience", "intern", "internship", "martech", "work", "job", "role", "company", "freshworks", "agile"],
+      "content": [
+        {
+          "title": "AI Engineer Intern",
+          "company": "MarTech Mate Private Limited",
+          "dates": "Sept 2025 – Feb 2026",
+          "bullets": [
+            "Designed and implemented RAG pipelines for Orky.io, handling document ingestion, chunking strategies, embedding generation, and vector-based retrieval to power accurate LLM responses.",
+            "Integrated LLM APIs (Python) into the chatbot backend, managing context window handling and structured output generation for enterprise use cases.",
+            "Built and configured knowledge base connectors for ServiceNow and Freshworks, enabling employees to query organizational data via natural language through the RAG pipeline.",
+            "Managed code via Git and GitHub with feature branches, pull requests, and collaborative code reviews in an Agile team environment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orky",
+      "label": "Orky.io",
+      "keywords": ["orky", "rag", "pipeline", "pipelines", "embedding", "embeddings", "vector", "retrieval", "chatbot", "servicenow", "freshworks", "ingestion", "chunk", "chunking", "production"],
+      "content": {
+        "stack": ["Python", "LLM APIs", "RAG Architecture", "ServiceNow", "Git"],
+        "bullets": [
+          "Built end-to-end RAG pipelines — document chunking, embedding generation, vector search, and LLM response synthesis — to connect employees to organizational knowledge bases via natural language.",
+          "Integrated LLM APIs using Python, managing context window handling and structured output formatting for accurate enterprise query responses.",
+          "Developed and configured knowledge base connectors for ServiceNow and Freshworks, enabling seamless data retrieval from enterprise platforms into the RAG pipeline.",
+          "Deployed and iterated on the RAG system in a production environment, collaborating with the AI team via Git and GitHub using feature branches and pull requests."
+        ]
+      }
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "keywords": ["project", "projects", "esports", "strategy", "leaflet", "blinkit", "inventory", "dashboard", "dax", "react", "node", "postgresql"],
+      "content": [
+        {
+          "name": "Esports Strategy Platform",
+          "stack": ["React", "Tailwind CSS", "Node.js", "PostgreSQL"],
+          "bullets": [
+            "Designing a free, interactive strategy-planning platform for esports teams, filling the gap left by the absence of purpose-built tactics tools for competitive gaming.",
+            "Architecting interactive game maps (Leaflet.js, L.CRS.Simple) with POI markers, loot-tier overlays, and layer toggles, alongside a PostgreSQL/Node.js backend and a roadmap for real-time collaboration."
+          ]
+        },
+        {
+          "name": "Blinkit Inventory Analytics",
+          "stack": ["Python", "Power BI", "DAX", "Excel"],
+          "bullets": [
+            "Cleaned and analyzed a retail sales dataset (10,000+ rows) using Excel and Python, uncovering seasonal demand trends across 5+ high-impact SKU categories.",
+            "Built an interactive Power BI dashboard tracking KPIs: stockout rates, category-wise revenue, and weekly sales trends."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "keywords": ["education", "b.tech", "btech", "rgpv", "cgpa", "college", "university", "degree", "coursework"],
+      "content": {
+        "degree": "B.Tech — Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)",
+        "date": "July 2026",
+        "cgpa": "7.29",
+        "coursework": ["Data Structures & Algorithms", "DBMS", "Software Engineering", "AI & Machine Learning"]
+      }
+    },
+    {
+      "id": "achievements",
+      "label": "Achievements",
+      "keywords": ["achievement", "achievements", "codechef", "hackathon", "build for india", "kochi", "kerala", "solved", "coding problems"],
+      "content": [
+        "Contributed as an AI Engineer to Orky.io, a live, production-stage Generative AI product, building RAG pipelines and LLM integrations that connect enterprise knowledge bases (ServiceNow) via natural language.",
+        "Gained hands-on understanding of RAG architecture and LLM-powered enterprise applications through active involvement in an AI product team.",
+        "Solved 350+ coding problems on CodeChef, strengthening Python and algorithmic foundations relevant to AI development.",
+        "Participated in Build for India, a hackathon organized by the Kerala Startup Mission, held on 27th–28th February in Kochi, Kerala."
+      ]
+    }
+  ]
+}
