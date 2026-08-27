@@ -24,18 +24,22 @@ class GroqClient:
             # Fail fast at startup / instantiation
             raise ValueError(error_msg)
 
-    async def stream_chat(self, messages: List[Dict[str, str]]) -> AsyncGenerator[str, None]:
+    async def stream_chat(
+        self,
+        messages: List[Dict[str, str]],
+        temperature: float = 0.3   # Day 2 — temperature control, default 0.3
+    ) -> AsyncGenerator[str, None]:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-        
+
         payload = {
             "model": self.model,
             "messages": messages,
-            "temperature": 0.3,
+            "temperature": temperature,   # Day 2 — dynamically set per query type
             "max_tokens": 1024,
-            "stream": True,
+            "stream": True,              # Day 9 — streaming enabled
         }
 
         async with httpx.AsyncClient(timeout=httpx.Timeout(60.0, connect=10.0)) as client:
