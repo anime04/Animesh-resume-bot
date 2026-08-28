@@ -155,7 +155,7 @@ export default function ChatWindow() {
                   className="text-[10px] sm:text-xs truncate"
                   style={{ color: '#9C9A94' }}
                 >
-                  Generative AI Developer · B.Tech 2026
+                  Software Engineer
                 </p>
               </div>
             </div>
@@ -221,8 +221,8 @@ export default function ChatWindow() {
                   <h2 className="text-sm sm:text-2xl font-semibold tracking-tight text-primary">
                     Interview Animesh Jain
                   </h2>
-                  <p className="text-[11px] sm:text-sm text-muted leading-relaxed max-w-xl">
-                    I'm an AI assistant trained on Animesh's verified background in Generative AI, production RAG pipelines (Orky.io), full-stack development, and competitive programming.
+                  <p className="text-xs sm:text-sm text-muted leading-relaxed max-w-xl">
+                    I'm an AI assistant trained on Animesh's resume.
                   </p>
                 </div>
 
