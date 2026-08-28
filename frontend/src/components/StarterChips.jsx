@@ -11,18 +11,18 @@ const STARTER_QUESTIONS = [
 
 export default function StarterChips({ onSelectQuestion, disabled = false }) {
   return (
-    <div className="w-full space-y-3 my-4">
-      <p className="text-sm text-muted font-medium">
-        Ask me anything about my experience — here's a few ideas to start with:
+    <div className="w-full space-y-2 sm:space-y-3 my-2 sm:my-4">
+      <p className="text-xs sm:text-sm text-muted font-medium">
+        Suggested questions to start with:
       </p>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-1.5 sm:gap-2">
         {STARTER_QUESTIONS.map((question, index) => (
           <button
             key={index}
             type="button"
             disabled={disabled}
             onClick={() => onSelectQuestion(question)}
-            className="text-left text-xs sm:text-sm px-3.5 py-2 rounded-full bg-surface hover:bg-surface-2 text-primary border border-border-subtle hover:border-accent focus:outline-none focus:ring-2 focus:ring-accent transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+            className="text-left text-[11px] sm:text-sm px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-full bg-surface hover:bg-surface-2 text-primary border border-border-subtle hover:border-accent focus:outline-none focus:ring-2 focus:ring-accent transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
           >
             {question}
           </button>
