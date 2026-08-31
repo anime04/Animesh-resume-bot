@@ -4,42 +4,132 @@
   "contact": {
     "phone": "+91 9770624056",
     "email": "jainani450@gmail.com",
-    "linkedin": "linkedin.com/in/animesh-jain-349893258"
+    "linkedin": "linkedin.com/in/animesh-jain-349893258",
+    "github": "github.com/anime04",
+    "portfolio": "animesh-resume-bot.vercel.app",
+    "location": "Madhya Pradesh, India",
+    "availability": "Available for Full-time Software Engineer / AI Engineer roles (Graduating 2026) and Internships"
   },
   "sections": [
     {
       "id": "summary",
       "label": "Summary",
-      "keywords": ["summary", "about", "who", "background", "overview", "certified", "certification"],
-      "content": "Software Engineer with hands-on experience building production-grade AI-powered enterprise products. Worked on Orky.io, a production RAG-based enterprise chatbot integrating with ServiceNow, contributing to the full RAG pipeline including document ingestion, embedding, vector search, and LLM response generation. Proficient in Python, JavaScript, full-stack development, and RAG architecture. Certified in ServiceNow System Administration and Generative AI."
+      "keywords": [
+        "summary",
+        "about",
+        "who",
+        "background",
+        "overview",
+        "bio",
+        "introduction",
+        "intro",
+        "yourself"
+      ],
+      "content": "Software Engineer with hands-on experience building production-grade AI-powered enterprise products. Worked on Orky.io, a production RAG-based enterprise chatbot integrating with ServiceNow, contributing to the full RAG pipeline including document ingestion, embedding, vector search, and LLM response generation. Proficient in Python, JavaScript, full-stack development, and RAG architecture."
     },
     {
       "id": "skills",
       "label": "Skills",
-      "keywords": ["skill", "skills", "python", "javascript", "sql", "tailwind", "html", "css", "tool", "tools", "git", "github", "powerbi", "power bi", "excel", "pandas", "mysql", "stack", "technology", "technologies", "vs code"],
+      "keywords": [
+        "skill",
+        "skills",
+        "python",
+        "javascript",
+        "sql",
+        "tailwind",
+        "html",
+        "css",
+        "tool",
+        "tools",
+        "git",
+        "github",
+        "powerbi",
+        "power bi",
+        "excel",
+        "pandas",
+        "mysql",
+        "stack",
+        "technology",
+        "technologies",
+        "vs code",
+        "framework",
+        "react"
+      ],
       "content": {
-        "Generative AI": ["RAG", "LLM API Integration (Python)", "Vector Search"],
-        "Programming": ["Python", "JavaScript", "SQL"],
-        "Frontend": ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
-        "Enterprise": ["ServiceNow"],
-        "Tools": ["Git", "GitHub", "VS Code"],
-        "Supporting": ["Power BI", "Excel", "Pandas", "MySQL"]
+        "Generative AI & RAG": [
+          "Retrieval-Augmented Generation (RAG)",
+          "LLM API Integration ",
+          "Vector Search & Embeddings",
+          "Prompt Engineering & Chaining",
+          "Server-Sent Events (SSE) Streaming"
+        ],
+        "Programming Languages": [
+          "Python",
+          "JavaScript",
+          "SQL"
+        ],
+        "Backend & Frameworks": [
+          "FastAPI",
+          "Node.js",
+          "REST APIs",
+          "Pydantic",
+          "HTTPX"
+        ],
+        "Frontend & UI": [
+          "React.js",
+          "Tailwind CSS",
+          "HTML5",
+          "CSS3",
+          "Responsive Mobile-First Design (100dvh)"
+        ],
+        "Enterprise Platforms": [
+          "ServiceNow"
+        ],
+        "Databases & Analytics": [
+          "MySQL",
+          "PostgreSQL",
+          "DAX",
+          "Excel",
+          "Pandas"
+        ],
+        "Tools & Workflows": [
+          "Git",
+          "GitHub (Feature branches, PRs, Code Reviews)",
+          "VS Code",
+          "Uvicorn",
+          "Vite",
+          "Agile & Scrum Methodologies"
+        ]
       }
     },
     {
       "id": "experience",
       "label": "Experience",
-      "keywords": ["experience", "intern", "internship", "martech", "work", "job", "role", "company", "freshworks", "agile"],
+      "keywords": [
+        "experience",
+        "intern",
+        "internship",
+        "martech",
+        "work",
+        "job",
+        "role",
+        "company",
+        "freshworks",
+        "servicenow",
+        "agile",
+        "employment",
+        "career"
+      ],
       "content": [
         {
           "title": "AI Engineer Intern",
           "company": "MarTech Mate Private Limited",
           "dates": "Sept 2025 – Feb 2026",
           "bullets": [
-            "Designed and implemented RAG pipelines for Orky.io, handling document ingestion, chunking strategies, embedding generation, and vector-based retrieval to power accurate LLM responses.",
-            "Integrated LLM APIs (Python) into the chatbot backend, managing context window handling and structured output generation for enterprise use cases.",
-            "Built and configured knowledge base connectors for ServiceNow and Freshworks, enabling employees to query organizational data via natural language through the RAG pipeline.",
-            "Managed code via Git and GitHub with feature branches, pull requests, and collaborative code reviews in an Agile team environment."
+            "Designed and implemented production RAG pipelines for Orky.io, handling document ingestion, chunking strategies, embedding generation, and vector-based retrieval to power accurate LLM responses.",
+            "Integrated LLM APIs (Python) into the chatbot backend, managing context window handling, rate limiting, and structured output generation for enterprise use cases.",
+            "Built and configured knowledge base connectors for ServiceNow and Freshworks, enabling employees to query internal tickets and documentation in natural language.",
+            "Managed code via Git and GitHub with feature branches, pull requests, and collaborative code reviews in an Agile sprint cadence."
           ]
         }
       ]
@@ -47,33 +137,105 @@
     {
       "id": "orky",
       "label": "Orky.io",
-      "keywords": ["orky", "rag", "pipeline", "pipelines", "embedding", "embeddings", "vector", "retrieval", "chatbot", "servicenow", "freshworks", "ingestion", "chunk", "chunking", "production"],
+      "keywords": [
+        "orky",
+        "orky.io",
+        "rag",
+        "pipeline",
+        "pipelines",
+        "embedding",
+        "embeddings",
+        "vector",
+        "retrieval",
+        "chatbot",
+        "servicenow",
+        "freshworks",
+        "ingestion",
+        "chunk",
+        "chunking",
+        "production"
+      ],
       "content": {
-        "stack": ["Python", "LLM APIs", "RAG Architecture", "ServiceNow", "Git"],
+        "stack": [
+          "Python",
+          "LLM APIs ",
+          "RAG Architecture",
+          "Vector Search",
+          "ServiceNow Connectors",
+          "Git / GitHub"
+        ],
         "bullets": [
-          "Built end-to-end RAG pipelines — document chunking, embedding generation, vector search, and LLM response synthesis — to connect employees to organizational knowledge bases via natural language.",
-          "Integrated LLM APIs using Python, managing context window handling and structured output formatting for accurate enterprise query responses.",
-          "Developed and configured knowledge base connectors for ServiceNow and Freshworks, enabling seamless data retrieval from enterprise platforms into the RAG pipeline.",
-          "Deployed and iterated on the RAG system in a production environment, collaborating with the AI team via Git and GitHub using feature branches and pull requests."
+          "Built end-to-end RAG pipelines — document ingestion & chunking, embedding generation, vector search, and LLM response synthesis — connecting employees to organizational knowledge via natural language.",
+          "Integrated Python LLM APIs with robust context-window management, retry logic, and structured JSON output formatting for enterprise reliability.",
+          "Developed custom knowledge base connectors for ServiceNow to pull tickets and articles directly into vector search index.",
+          "Deployed the system in production and iterated based on latency, chunk relevance scores, and employee feedback in an Agile team."
         ]
       }
     },
     {
       "id": "projects",
       "label": "Projects",
-      "keywords": ["project", "projects", "esports", "strategy", "leaflet", "blinkit", "inventory", "dashboard", "dax", "react", "node", "postgresql"],
+      "keywords": [
+        "project",
+        "projects",
+        "hireme",
+        "hireme ai",
+        "esports",
+        "strategy",
+        "leaflet",
+        "blinkit",
+        "inventory",
+        "dashboard",
+        "dax",
+        "react",
+        "node",
+        "fastapi",
+        "groq"
+      ],
       "content": [
         {
-          "name": "Esports Strategy Platform",
-          "stack": ["React", "Tailwind CSS", "Node.js", "PostgreSQL"],
+          "name": "HireMe AI — Conversational Resume Portfolio (RAG-Powered)",
+          "stack": [
+            "Python",
+            "FastAPI",
+            "Groq LLM ",
+            "React",
+            "Tailwind CSS",
+            "Vite",
+            "SSE Streaming",
+            "Render",
+            "Vercel"
+          ],
           "bullets": [
-            "Designing a free, interactive strategy-planning platform for esports teams, filling the gap left by the absence of purpose-built tactics tools for competitive gaming.",
+            "Architected and deployed a full-stack conversational AI portfolio allowing recruiters to interview Animesh in real time with zero hallucination.",
+            "Built a 3-step RAG pipeline: query classification with dynamic temperature tuning (0.1 for technical, 0.3 for experience, 0.6 for general), keyword-based top chunk retrieval, and prompt augmentation.",
+            "Implemented real-time Server-Sent Events (SSE) streaming with token-by-token response generation and client-side sliding window conversation history.",
+            "Designed a responsive Claude-inspired dark mode UI with dynamic viewport height (100dvh) support for seamless mobile experiences."
+          ]
+        },
+        {
+          "name": "Esports Strategy Platform",
+          "stack": [
+            "React",
+            "Tailwind CSS",
+            "Node.js",
+            "PostgreSQL",
+            "Leaflet.js"
+          ],
+          "bullets": [
+            "Designing an interactive strategy-planning platform for esports teams, filling the gap left by the absence of purpose-built tactics tools for competitive gaming.",
             "Architecting interactive game maps (Leaflet.js, L.CRS.Simple) with POI markers, loot-tier overlays, and layer toggles, alongside a PostgreSQL/Node.js backend and a roadmap for real-time collaboration."
           ]
         },
         {
           "name": "Blinkit Inventory Analytics",
-          "stack": ["Python", "Power BI", "DAX", "Excel"],
+          "stack": [
+            "Python",
+            "Power BI",
+            "DAX",
+            "Excel",
+            "Pandas"
+          ],
           "bullets": [
             "Cleaned and analyzed a retail sales dataset (10,000+ rows) using Excel and Python, uncovering seasonal demand trends across 5+ high-impact SKU categories.",
             "Built an interactive Power BI dashboard tracking KPIs: stockout rates, category-wise revenue, and weekly sales trends."
@@ -84,24 +246,120 @@
     {
       "id": "education",
       "label": "Education",
-      "keywords": ["education", "b.tech", "btech", "rgpv", "cgpa", "college", "university", "degree", "coursework"],
+      "keywords": [
+        "education",
+        "b.tech",
+        "btech",
+        "rgpv",
+        "cgpa",
+        "college",
+        "university",
+        "degree",
+        "coursework",
+        "school",
+        "12th",
+        "10th",
+        "cbse",
+        "percentage",
+        "marks",
+        "grades",
+        "academic",
+        "academics"
+      ],
+      "content": [
+        {
+          "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)",
+          "degree": "Bachelor of Technology (B.Tech)",
+          "branch": "Computer Science & Engineering - Artificial Intelligence (CSE-AI)",
+          "duration": "November 2022 – June 2026",
+          "cgpa": "7.29 / 10",
+          "coursework": [
+            "Data Structures & Algorithms (DSA)",
+            "Database Management Systems (DBMS)",
+            "Software Engineering",
+            "AI & Machine Learning",
+            "Object-Oriented Programming (OOP)"
+          ]
+        },
+        {
+          "institution": "Bharat Mata Convent Senior Secondary School",
+          "degree": "Class 12th (Senior Secondary) — CBSE",
+          "year": "2022",
+          "score": "71%"
+        },
+        {
+          "institution": "Bharat Mata Convent Senior Secondary School",
+          "degree": "Class 10th (Secondary) — CBSE",
+          "year": "2020",
+          "score": "72%"
+        }
+      ]
+    },
+    {
+      "id": "coding_profiles",
+      "label": "Coding & Problem Solving",
+      "keywords": [
+        "codechef",
+        "coding",
+        "problem solving",
+        "problems",
+        "dsa",
+        "algorithms",
+        "competitive programming",
+        "practice",
+        "leetcode",
+        "hacker"
+      ],
       "content": {
-        "degree": "B.Tech — Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)",
-        "date": "July 2026",
-        "cgpa": "7.29",
-        "coursework": ["Data Structures & Algorithms", "DBMS", "Software Engineering", "AI & Machine Learning"]
+        "platform": "CodeChef",
+        "problems_solved": "350+ Problems Solved",
+        "focus_areas": [
+          "Data Structures & Algorithms",
+          "Arrays & Strings",
+          "HashMaps & Two-Pointer Techniques",
+          "Mathematical & Logic Problems in Python"
+        ],
+        "impact": "Developed strong analytical thinking, time-complexity optimization skills, and algorithmic fluency for software engineering."
       }
     },
     {
       "id": "achievements",
-      "label": "Achievements",
-      "keywords": ["achievement", "achievements", "codechef", "hackathon", "build for india", "kochi", "kerala", "solved", "coding problems"],
+      "label": "Achievements & Hackathons",
+      "keywords": [
+        "achievement",
+        "achievements",
+        "hackathon",
+        "hackathons",
+        "build for india",
+        "kochi",
+        "kerala",
+        "startup mission",
+        "competition",
+        "award"
+      ],
       "content": [
-        "Contributed as an AI Engineer to Orky.io, a live, production-stage Generative AI product, building RAG pipelines and LLM integrations that connect enterprise knowledge bases (ServiceNow) via natural language.",
-        "Gained hands-on understanding of RAG architecture and LLM-powered enterprise applications through active involvement in an AI product team.",
-        "Solved 350+ coding problems on CodeChef, strengthening Python and algorithmic foundations relevant to AI development.",
-        "Participated in Build for India, a hackathon organized by the Kerala Startup Mission, held on 27th–28th February in Kochi, Kerala."
+        "Contributed as an AI Engineer to Orky.io, a live production-stage Generative AI chatbot connecting enterprise platforms (ServiceNow, Freshworks) through natural language RAG.",
+        "Solved 350+ coding problems on CodeChef with a focus on DSA and Python optimization.",
+        "Participated in the 'Build for India' Hackathon organized by the Kerala Startup Mission (held in Kochi, Kerala), collaborating on rapid prototype development."
       ]
+    },
+    {
+      "id": "languages",
+      "label": "Languages",
+      "keywords": [
+        "language",
+        "languages",
+        "spoken",
+        "speak",
+        "english",
+        "hindi",
+        "communication",
+        "fluency"
+      ],
+      "content": {
+        "English": "Professional working proficiency (fluent in verbal and written technical communication)",
+        "Hindi": "Native proficiency"
+      }
     }
   ]
 }
