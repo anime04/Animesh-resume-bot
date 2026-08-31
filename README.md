@@ -93,7 +93,7 @@ User Query
                                                                    ▼
                                                        ┌────────────────────────┐
                                                        │        Groq API        │
-                                                       │  (LLaMA 3.3 70B)       │
+                                                       │  (openai/gpt-oss-120b) │
                                                        └────────────────────────┘
 ```
 
@@ -155,62 +155,6 @@ Hello_Animesh/week2/major_project/
 
 ---
 
-### 2. Backend Setup
-
-```bash
-cd Hello_Animesh/week2/major_project/backend
-
-# Create virtual environment
-python -m venv .venv
-.venv\Scripts\activate        # Windows
-# source .venv/bin/activate   # macOS/Linux
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure environment
-cp .env.example .env
-```
-
-Edit `.env`:
-```env
-GROQ_API_KEY=gsk_your_actual_groq_api_key_here
-GROQ_MODEL=llama-3.3-70b-versatile
-ALLOWED_ORIGIN=http://localhost:5173
-RATE_LIMIT_PER_MINUTE=20
-```
-
-```bash
-# Start backend
-uvicorn app.main:app --reload --port 8000
-```
-
-Health check: `GET http://localhost:8000/api/health`
-
----
-
-### 3. Frontend Setup
-
-```bash
-cd Hello_Animesh/week2/major_project/frontend
-
-npm install
-cp .env.example .env
-```
-
-`.env`:
-```env
-VITE_API_BASE_URL=http://localhost:8000
-```
-
-```bash
-npm run dev
-```
-
-Open `http://localhost:5173`
-
----
-
 ## 🔍 RAG Pipeline Details
 
 ### Step 1 — Query Classification (Day 2 + Day 6)
@@ -255,17 +199,7 @@ build_augmented_prompt(chunks) → system_prompt
 
 ---
 
-## 📝 Updating Resume Information
-
-All knowledge lives in `backend/resume_data.json`. To update:
-1. Edit `backend/resume_data.json`
-2. Restart the FastAPI backend
-3. The RAG retriever and keyword tagging auto-sync with the new data
-
----
-
 ## 🌐 Live Demo
 
-- **Frontend:** https://animesh-resume-bot.vercel.app
-- **Backend API:** https://animesh-resume-bot.onrender.com/api/health
+- **Website:** https://animesh-resume-bot.vercel.app
 - **GitHub:** https://github.com/anime04/Animesh-resume-bot
