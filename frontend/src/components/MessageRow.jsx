@@ -32,13 +32,17 @@ export default function MessageRow({ message, isWaitingFirstToken = false }) {
             </div>
           ) : (
             <>
-              {/* If streaming and waiting for first token, show single pulsing dot */}
+              {/* If streaming and waiting for first token, show animated Thinking indicator */}
               {message.isStreaming && !message.content ? (
-                <div className="flex items-center space-x-2 py-2">
-                  <span
-                    className="inline-block w-2.5 h-2.5 rounded-full bg-muted animate-pulse"
-                    aria-label="AI assistant is typing"
-                  />
+                <div className="flex items-center space-x-2.5 py-2 select-none">
+                  <div className="flex items-center space-x-1">
+                    <span className="w-2 h-2 rounded-full bg-accent animate-bounce [animation-delay:-0.3s]"></span>
+                    <span className="w-2 h-2 rounded-full bg-accent animate-bounce [animation-delay:-0.15s]"></span>
+                    <span className="w-2 h-2 rounded-full bg-accent animate-bounce"></span>
+                  </div>
+                  <span className="text-xs sm:text-sm text-muted font-medium tracking-wide">
+                    Thinking...
+                  </span>
                 </div>
               ) : (
                 <div className="prose-assistant text-sm sm:text-base leading-chat break-words">
