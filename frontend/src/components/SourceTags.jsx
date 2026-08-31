@@ -6,8 +6,11 @@ const SECTION_LABELS = {
   experience: 'Experience',
   orky: 'Orky.io',
   projects: 'Projects',
+  certifications: 'Certifications',
   education: 'Education',
   achievements: 'Achievements',
+  coding_profiles: 'Coding & Problem Solving',
+  languages: 'Languages',
 };
 
 export default function SourceTags({ sources = [] }) {
