@@ -114,7 +114,6 @@
         "job",
         "role",
         "company",
-        "freshworks",
         "servicenow",
         "agile",
         "employment",
@@ -128,7 +127,7 @@
           "bullets": [
             "Designed and implemented production RAG pipelines for Orky.io, handling document ingestion, chunking strategies, embedding generation, and vector-based retrieval to power accurate LLM responses.",
             "Integrated LLM APIs (Python) into the chatbot backend, managing context window handling, rate limiting, and structured output generation for enterprise use cases.",
-            "Built and configured knowledge base connectors for ServiceNow and Freshworks, enabling employees to query internal tickets and documentation in natural language.",
+            "Built and configured knowledge base connectors for ServiceNow, enabling employees to query internal tickets and documentation in natural language.",
             "Managed code via Git and GitHub with feature branches, pull requests, and collaborative code reviews in an Agile sprint cadence."
           ]
         }
@@ -149,7 +148,6 @@
         "retrieval",
         "chatbot",
         "servicenow",
-        "freshworks",
         "ingestion",
         "chunk",
         "chunking",
@@ -338,7 +336,7 @@
         "award"
       ],
       "content": [
-        "Contributed as an AI Engineer to Orky.io, a live production-stage Generative AI chatbot connecting enterprise platforms (ServiceNow, Freshworks) through natural language RAG.",
+        "Contributed as an AI Engineer to Orky.io, a live production-stage Generative AI chatbot connecting enterprise platforms (ServiceNow) through natural language RAG.",
         "Solved 350+ coding problems on CodeChef with a focus on DSA and Python optimization.",
         "Participated in the 'Build for India' Hackathon organized by the Kerala Startup Mission (held in Kochi, Kerala), collaborating on rapid prototype development."
       ]
